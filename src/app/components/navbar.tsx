@@ -1,8 +1,7 @@
 import React from "react";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaSquareInstagram } from "react-icons/fa6";
-import { FaSquareFacebook } from "react-icons/fa6";
+import { FaGlobe } from "react-icons/fa6";
 
 const Navbar = () =>{
     return(
@@ -10,8 +9,8 @@ const Navbar = () =>{
 
             <div className="header flex w-[80%] justify-between m-auto py-[1rem]">
                 <div>
-                    <a href="https://ermiyas.com" className="font-semibold text-white">
-                        Ermiyas.com
+                    <a href="/" className="font-medium text-white">
+                        HOME
                     </a>
                 </div>
                 
