@@ -17,10 +17,8 @@ const Navbar = () =>{
                 
                 <div className="flex flex-wrap">
                     
-                    <FaSquareGithub className="text-[#ffffff] mx-[0.2rem]" size={30}/>
-                    <FaLinkedin className="text-[#ffffff] mx-[0.2rem]" size={30}/>
-                    <FaSquareInstagram  className="text-[#ffffff] mx-[0.2rem]" size={30}/>
-                    <FaSquareFacebook className="text-[#ffffff] mx-[0.2rem]" size={30}/>
+                    <a href="https://github.com/Erma-T" target="_blank"><FaSquareGithub className="text-[#ffffff] mx-[0.2rem]" size={30}/></a>
+                    <a href="https://www.linkedin.com/in/ermiyas-tilahun/" target="_blank"><FaLinkedin className="text-[#ffffff] mx-[0.2rem]" size={30}/></a>
                     
                 </div>
 
