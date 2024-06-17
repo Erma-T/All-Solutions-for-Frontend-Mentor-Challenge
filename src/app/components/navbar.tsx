@@ -6,7 +6,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 
 const Navbar = () =>{
     return(
-        <div className="sticky px-[5rem] top-0 w-full flex flex-wrap min-h-[4rem] bg-gradient-to-br from-[#161739] via-[#0c0a48] to-[#1f0b59]">
+        <div className="sticky px-[5rem] top-0 z-50 w-full flex flex-wrap min-h-[4rem] bg-gradient-to-r from-[#140c20] via-[#3c175a] to-[#110632]">
 
             <div className="header flex w-[80%] justify-between m-auto py-[1rem]">
                 <div>
