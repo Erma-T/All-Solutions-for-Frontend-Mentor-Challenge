@@ -21,7 +21,7 @@ export function About() {
 
                 <h1 className="font-bold text-3xl bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-[#f0fffb] to-[#fa59ef]"> About Me</h1>
 
-                <span className="font-medium text-sm text-[#d9baeded]">
+                <span className="font-medium text-sm text-[#d0e0eeed]">
                     I am Ermiyas Tilahun who is passionate web developer. I am experienced full stack developer and 
                     currently I am working to master my frontend skills. 
 
@@ -29,7 +29,7 @@ export function About() {
 
                 <h1 className="font-bold pt-[1rem] text-3xl bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-[#f0fffb] to-[#fa59ef]"> About This Project</h1>
 
-                <span className="font-medium text-sm text-[#d9baeded]">
+                <span className="font-medium text-sm text-[#d0e0eeed]">
                     This project includes solutions for the famous UI Challenges available at Frontend Mentor. It is created to develop 
                     and showcase my frontend skills by solving those challenge. This project is also very beneficials to those who are 
                     passionate web developers who has interest in forntend. You can practice by refering solutions in this project for 
@@ -38,7 +38,7 @@ export function About() {
                     More challenges will be included whenever I solve them. My plan is to start small and get bigger through time. Explore 
                     github repos for my solutions and see the live demos in below section. 
                     <p className="font-medium italic pt-[0.8rem]">
-                        Also find me on my socials in the header or see my portfolio: <a href="http://ermiyas.com" className="font-bold text-lg text-[#ffffff]">ermiyas.com</a>
+                        Also find me on my socials in the header or see my portfolio: <a href="http://ermiyas.com" className="font-medium text-[#ba7cc9]">ermiyas.com</a>
                     </p>
 
                 </span>
