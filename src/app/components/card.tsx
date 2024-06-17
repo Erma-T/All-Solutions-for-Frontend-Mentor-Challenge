@@ -1,59 +1,45 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
+import { WobbleCard } from "@/app/components/ui/wobble-card";
 
-export function ThreeDCardDemo() {
+export function Card() {
   return (
-    <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
-        <CardItem
-          translateZ="50"
-          className="text-xl font-bold text-neutral-600 dark:text-white"
-        >
-          Make things float in air
-        </CardItem>
-        <CardItem
-          as="p"
-          translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
-        >
-          Hover over this card to unleash the power of CSS perspective
-        </CardItem>
-        <CardItem
-          translateZ="100"
-          rotateX={20}
-          rotateZ={-10}
-          className="w-full mt-4"
-        >
-          <Image
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-            alt="thumbnail"
-          />
-        </CardItem>
-        <div className="flex justify-between items-center mt-20">
-          <CardItem
-            translateZ={20}
-            translateX={-40}
-            as="button"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-          >
-            Try now →
-          </CardItem>
-          <CardItem
-            translateZ={20}
-            translateX={40}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
-            Sign up
-          </CardItem>
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full ">
+      <WobbleCard
+        containerClassName="col-span-1 lg:col-span-1 h-full min-h-[500px] lg:min-h-[300px]"
+        className="grid grid-rows-7"
+      >
+        <div  className="row-span-3 w-full ">
+          <div className="w-[18rem] h-[8.5rem] bg-cover bg-center bg-no-repeat bg-[url('/screenshots/desktop-preview.jpg')]">
+            
+          </div>
         </div>
-      </CardBody>
-    </CardContainer>
+        <div  className="row-span-1 w-full pl-[1rem] py-[0.2rem] justify-center">
+          <h2 className="text-left font-semibold text-white">
+            QR Code Compnent
+          </h2>
+
+        </div>
+        <div  className="row-span-2 w-full px-[1rem]">
+          <p className="text-left text-sm font-light text-white">
+            With over 100,000 mothly active bot users, Gippity AI is the most
+            popular AI platform for developers.
+          </p>
+          <span className="text-left text-xs italic font-light mx-1 text-white">#HTML</span>
+          <span className="text-left text-xs italic font-light mx-1 text-white">#CSS</span>
+
+        </div>
+        <div  className="flex flex-wrap px-[1rem] row-span-1 w-full justify-center">
+          <p className="text-left text-sm font-light text-white"><a href="">Live Demo</a>| <a>Git Repo</a> | <a>Challenge</a></p>
+
+
+        </div>
+        
+      </WobbleCard>
+      
+      
+      
+    </div>
   );
 }

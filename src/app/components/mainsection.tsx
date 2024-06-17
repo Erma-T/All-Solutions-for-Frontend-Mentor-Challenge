@@ -1,12 +1,13 @@
 "use client"
 
 import React from "react";
+import Catalogue from "./catalogue";
 
 
 const Mainsection = () =>{
     return(
-        <div>
-            <h1>Hello Mainsec</h1>
+        <div className="z-10 w-[90%] min-h-[20rem] p-[0.4rem] rounded-2xl bg-[#b15ef96f] mt-[1.5rem]">
+            <Catalogue />
         </div>
     )
 
