@@ -6,7 +6,7 @@ import Mainsection from "./components/mainsection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-[10rem]">
+    <main className="flex min-h-screen flex-col items-center justify-between lg:px-[10rem]">
       
       <div className="flex flex-col items-center w-full px-4">
         <About />

@@ -8,10 +8,7 @@ const Catalogue = () => {
 
             <Card />
             
-
             
-
-
         </div>
 
     )

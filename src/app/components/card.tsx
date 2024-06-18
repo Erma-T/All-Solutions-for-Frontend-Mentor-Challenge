@@ -7,7 +7,7 @@ export function Card() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full ">
       
-      <div className="col-span-1 lg:col-span-1 h-full min-h-[500px] lg:min-h-[300px] py-[1rem]">
+      <div className="col-span-1 lg:col-span-1 h-full min-h-[20rem]">
                 
         <div className="flex flex-wrap justify-center justify-items-center">
           <WobbleCard
@@ -47,7 +47,7 @@ export function Card() {
 
       </div>
 
-      <div className="col-span-1 lg:col-span-1 h-full min-h-[500px] lg:min-h-[300px] py-[1rem]">
+      <div className="col-span-1 lg:col-span-1 h-full min-h-[20rem]">
                 
         <div className="flex flex-wrap justify-center justify-items-center">
           <WobbleCard
