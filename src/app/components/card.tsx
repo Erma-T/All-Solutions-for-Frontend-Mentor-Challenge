@@ -101,7 +101,7 @@ export function Card() {
             </div>
             <div  className="row-span-1 w-full pl-[1rem] py-[0.2rem] justify-center">
               <h2 className="text-left font-semibold text-white">
-                Result form
+                Result Summary Component
               </h2>
 
             </div>
