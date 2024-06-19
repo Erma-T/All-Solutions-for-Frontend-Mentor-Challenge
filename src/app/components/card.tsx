@@ -71,6 +71,7 @@ export function Card() {
               </p>
               <span className="text-left text-xs italic font-light mx-1 text-white">#HTML</span>
               <span className="text-left text-xs italic font-light mx-1 text-white">#CSS</span>
+              <span className="text-left text-xs italic font-light mx-1 text-white">#JavaScript</span>
 
             </div>
             
