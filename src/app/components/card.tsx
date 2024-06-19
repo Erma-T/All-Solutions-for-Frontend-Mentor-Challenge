@@ -127,6 +127,47 @@ export function Card() {
 
       </div>
 
+      <div className="col-span-1 lg:col-span-1 h-full min-h-[20rem]">
+                
+        <div className="flex flex-wrap justify-center justify-items-center">
+          <WobbleCard
+            containerClassName="col-span-1 lg:col-span-1 h-full"
+            className="grid grid-rows-6"
+          >
+            <div  className="row-span-3 w-full ">
+              <div className="w-[18rem] h-[8.5rem] bg-cover bg-center bg-no-repeat bg-[url('/screenshots/ch4-desktop-preview.webp')]">
+                
+              </div>
+            </div>
+            <div  className="row-span-1 w-full pl-[1rem] py-[0.2rem] justify-center">
+              <h2 className="text-left font-semibold text-white">
+                Age Calculatot App
+              </h2>
+
+            </div>
+            <div  className="row-span-2 w-full px-[1rem]">
+              <p className="text-left text-sm font-light text-white">
+                A challenge is to build out an age calculator app.
+              </p>
+              <span className="text-left text-xs italic font-light mx-1 text-white">#HTML</span>
+              <span className="text-left text-xs italic font-light mx-1 text-white">#CSS</span>
+              <span className="text-left text-xs italic font-light mx-1 text-white">#JS</span>
+
+            </div>
+            
+            
+          </WobbleCard>
+          <div  className="z-30 flex flex-wrap px-[1rem] py-[0.7rem] w-full justify-center justify-items-stretch">
+              <p className="text-left text-sm font-light text-white">
+                <a href="https://erma-t.github.io/age-calculator-app-frontendmentor/" target="_blank">Live </a> &nbsp;&nbsp;| &nbsp;&nbsp;
+                <a href="https://github.com/Erma-T/age-calculator-app-frontendmentor" target="_blank">Git Repo</a> &nbsp;&nbsp;| &nbsp;&nbsp; 
+                <a href="https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj" target="_blank">Challenge</a></p>
+          </div>
+        
+        </div>
+
+      </div>
+
     </div>
   );
 }
