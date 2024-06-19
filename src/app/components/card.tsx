@@ -151,10 +151,9 @@ export function Card() {
               </p>
               <span className="text-left text-xs italic font-light mx-1 text-white">#HTML</span>
               <span className="text-left text-xs italic font-light mx-1 text-white">#CSS</span>
-              <span className="text-left text-xs italic font-light mx-1 text-white">#JS</span>
+              <span className="text-left text-xs italic font-light mx-1 text-white">#JavaScript</span>
 
             </div>
-            
             
           </WobbleCard>
           <div  className="z-30 flex flex-wrap px-[1rem] py-[0.7rem] w-full justify-center justify-items-stretch">
