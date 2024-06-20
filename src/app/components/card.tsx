@@ -121,7 +121,7 @@ export function Card() {
               <p className="text-left text-sm font-light text-white">
                 <a href="https://erma-t.github.io/results-summary-component-main-frontendmentor/" target="_blank">Live </a> &nbsp;&nbsp;| &nbsp;&nbsp;
                 <a href="https://github.com/Erma-T/results-summary-component-main-frontendmentor" target="_blank">Git Repo</a> &nbsp;&nbsp;| &nbsp;&nbsp; 
-                <a href="https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj" target="_blank">Challenge</a></p>
+                <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q" target="_blank">Challenge</a></p>
           </div>
         
         </div>
